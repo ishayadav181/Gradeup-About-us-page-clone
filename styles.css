@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root
+{
+    --darkgrey: rgba(0,0,0,0.1);
+    --lightgrey:rgba(0,0,0,0.05);
+    --blue:#0b182f;
+    --cyan:#36806c;
+    --green:#50b167;
+    --primary:#fff;
+    --tblue:#0b182f; 
+    --small:1rem;
+    --medium:2rem;
+    --large:3rem;
+    --verysmall:.3rem;
+    --verylarge:7rem;
+
+    
+    
+
+
+
+
+}
+
+  /* all text */
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    color: var(--tblue);
+}
+
+.head1
+{
+    /* font-family: Poppins; */
+    font-size: 1.5rem;
+    font-weight:700;
+    margin: 0 0;
+}
+
+.head2
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.para
+{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.paras
+{
+    font-weight: 400;
+    font-size: .9rem;
+
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.wtext
+{
+    color:var(--primary);
+}
+
+
+.tc 
+{
+    text-align: center;
+}
+.tr 
+{
+    text-align: right;
+}
+
+/* backgroud */
+
+.cyan
+{
+    background-color: var(--cyan);
+}
+.blue
+{
+    background-color: var(--blue);
+}
+.green
+{
+    background-color: var(--green);
+}
+.lightgrey
+{
+    background-color: var(--lightgrey);
+}
+.darkgrey
+{
+    background-color: var(--darkgrey);
+}
+.white
+{
+    background-color:var(--primary);
+}
+.fbg
+{
+    background-image: linear-gradient(to bottom, var(--green), var(--cyan));
+}
+/* container size */
+
+.container
+{
+    max-width: 1130px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* flex  */
+
+.flex
+{
+    display: flex;
+}
+
+.jc
+{
+    justify-content: center;
+}
+.jcs
+{
+    justify-content: space-between;
+}
+.jce
+{
+    justify-content: space-evenly;
+}
+.ai 
+{
+    align-items: center;
+}
+.ais
+{
+    align-items: stretch;
+}
+.fc
+{
+    flex-direction: column;
+}
+.fr
+{
+    flex-direction: row;
+}
+.frr
+{
+    flex-direction: row-reverse;
+}
+.wrap
+{
+    flex-wrap: wrap;
+}
+
+/* position */
+.rel
+{
+    position: relative;
+}
+
+.abs
+{
+    position: absolute;
+}
+.l2
+{
+    left:2rem;
+}
+.r2
+{
+    right:2rem;
+}
+.b0
+{
+    bottom: 0rem;
+}
+.t1
+{
+    top:1.5rem;
+}
+
+/* individual */
+
+.head
+{
+    padding-top: var(--small);
+}
+
+.svglogo
+{   
+    
+    height: 22px;
+    width:22px;
+    padding-left: var(--verysmall);
+    padding-right: var(--verysmall);
+}
+.aboutus
+{
+    margin-bottom: var(--medium);
+    margin-top: var(--medium);
+}
+.phl
+{
+    padding-top: var(--large);
+    padding-bottom: var(--large);
+}
+.phm
+{
+    padding-top: var(--medium);
+    padding-bottom: var(--medium);
+}
+.pvll
+{
+    padding-left: var(--verylarge);
+    padding-right: var(--verylarge);
+}
+.pvl
+{
+    padding-left: var(--large);
+    padding-right: var(--large);
+}
+
+.mvs
+{
+    margin: var(--verysmall) var(--verysmall);
+}
+
+.f1
+{
+    flex:1;
+}
+
+.card
+{
+    
+    padding-left: var(--small);
+    padding-right: var(--small);
+}
+
+.phm
+{
+    padding-top: var(--medium);
+    padding-bottom: var(--medium);
+}
+
+.platimg
+{
+    width: 4rem;
+    height: 4rem;
+}
+
+.plat
+{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+a
+{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .9rem;
+    color: black;
+
+    line-height: 1.6;
+}
+
+.col
+{
+    height: 4rem;
+}
+
+.fimg
+{
+    width: 8rem;
+    border-radius: 50%;
+}
+.w
+{
+    width: 26rem;
+}
