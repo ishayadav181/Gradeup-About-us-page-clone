@@ -15,12 +15,6 @@
     --verysmall:.3rem;
     --verylarge:7rem;
 
-    
-    
-
-
-
-
 }
 
   /* all text */
@@ -30,6 +24,7 @@ body
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     color: var(--tblue);
+    overflow-x: hidden;
 }
 
 .head1
@@ -188,6 +183,56 @@ body
 {
     top:1.5rem;
 }
+/* padding */
+
+.phl
+{
+    padding-top: var(--large);
+    padding-bottom: var(--large);
+}
+.pvl
+{
+    padding-left: var(--large);
+    padding-right: var(--large);
+}
+.phm
+{
+    padding-top: var(--medium);
+    padding-bottom: var(--medium);
+}
+.pvm
+{
+    padding-left: var(--medium);
+    padding-right: var(--medium);
+}
+.pvll
+{
+    padding-left: var(--verylarge);
+    padding-right: var(--verylarge);
+}
+.phll
+{
+    padding-left: var(--verysmall);
+    padding-right: var(--verysmall);
+}
+
+/* margin */
+
+
+.mvs
+{
+    margin: var(--verysmall) var(--verysmall);
+}
+.mvm
+{
+    margin-left: var(--medium);
+    margin-right: var(--medium);
+}
+.mhm
+{
+    margin-bottom: var(--medium);
+    margin-top: var(--medium);
+}
 
 /* individual */
 
@@ -204,36 +249,8 @@ body
     padding-left: var(--verysmall);
     padding-right: var(--verysmall);
 }
-.aboutus
-{
-    margin-bottom: var(--medium);
-    margin-top: var(--medium);
-}
-.phl
-{
-    padding-top: var(--large);
-    padding-bottom: var(--large);
-}
-.phm
-{
-    padding-top: var(--medium);
-    padding-bottom: var(--medium);
-}
-.pvll
-{
-    padding-left: var(--verylarge);
-    padding-right: var(--verylarge);
-}
-.pvl
-{
-    padding-left: var(--large);
-    padding-right: var(--large);
-}
 
-.mvs
-{
-    margin: var(--verysmall) var(--verysmall);
-}
+
 
 .f1
 {
@@ -247,16 +264,10 @@ body
     padding-right: var(--small);
 }
 
-.phm
-{
-    padding-top: var(--medium);
-    padding-bottom: var(--medium);
-}
 
 .platimg
 {
     width: 4rem;
-    height: 4rem;
 }
 
 .plat
@@ -289,6 +300,10 @@ a
 {
     width: 26rem;
 }
+.pcard
+{
+    width: 100%;
+}
 
 @media screen and (max-width:60em) {
     .col
@@ -310,5 +325,9 @@ a
     .nm
     {
         margin:0 0;
+    }
+    .hid
+    {
+        display: none;
     }
   }
