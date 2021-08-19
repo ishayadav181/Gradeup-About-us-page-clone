@@ -289,3 +289,26 @@ a
 {
     width: 26rem;
 }
+
+@media screen and (max-width:60em) {
+    .col
+    {
+        display: none;
+    }
+    .mob
+    {
+        flex-direction: column;
+        width:100%;
+    }
+    .mobr
+    {
+        flex-direction: column-reverse;
+    margin: var(--verysmall) var(--verysmall);
+    width:100%;
+
+    }
+    .nm
+    {
+        margin:0 0;
+    }
+  }
